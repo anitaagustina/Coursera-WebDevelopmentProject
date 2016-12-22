@@ -3,6 +3,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 200;
 	color: black;
+
 }
 
 h1, h2, h3 {
@@ -53,6 +54,10 @@ nav ul li a:hover, nav ul li a:active {
 /* header ends */
 
 /* main content */
+.container {
+	padding-top: 90px;
+	
+}
 #chicken-section p, #beef-section p, #sushi-section p {
 	background-color: grey;
 	margin-top: -10px;
@@ -68,10 +73,6 @@ nav ul li a:hover, nav ul li a:active {
 	clear: both;
 	background-color: white;
 	height: 30px;
-	
-}
-section {
-	margin: 0;
 }
 #backtotop {
 	height: auto;
@@ -108,3 +109,4 @@ section p > a:hover {
 		margin-left: 15px;
 	}
 }
+
